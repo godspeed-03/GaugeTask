@@ -9,8 +9,8 @@ function Herobanner() {
         <div className="text-gray-600">
           <div className="lg:mx-auto flex flex-row px-5 pb-24 text-center">
             <div className="flex   max-lg:flex-col gap-6 lg:gap-4">
-              <div className="mx-5 w-full">
-                <img className='inline-block'
+              <div className="mx-5">
+                <img className='inline-block w-full'
                   alt="hero-img"
                   src={banner}
                 />

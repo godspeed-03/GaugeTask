@@ -13,7 +13,7 @@ function Section() {
                             <div className="lg:mx-auto  px-5 pb-24 text-center">
                                 <div className="flex flex-row-reverse  max-lg:flex-col gap-6 lg:gap-4">
                                     <div className="">
-                                        <img className='inline-block'
+                                        <img className='inline-block w-full'
                                             alt="hero-img"
                                             src={logo}
                                         />
@@ -21,7 +21,7 @@ function Section() {
                                     <div className=" my-auto">
                                         <div className="lg:py-4  ">
                                             <span className="trusttext flex text-center justify-center items-center mt-10">
-                                                <img src={sheild} alt="" className=" w-7" />
+                                                <img src={sheild} alt="sheild-logo" className=" w-7" />
                                                 <h2>Customers’ Needs Above All Else</h2>
                                             </span>
 
@@ -41,7 +41,7 @@ function Section() {
 
                                         <div className="checksection">
                                             <div className="content flex my-8 ">
-                                                <img src={check} alt="" className='w-7 object-contain relative top-0' />
+                                                <img src={check} alt="Check-Tick" className='w-7 object-contain relative top-0' />
                                                 <div class="info-wrap">
                                                     <h2
                                                         class="text-xl lg:w-full mb-3 font-bold font-plusJakartaSans capitalize text-gray-800">
@@ -56,7 +56,7 @@ function Section() {
                                                 </div>
                                             </div>
                                             <div className="content flex my-8">
-                                                <img src={check} alt="" className='w-7 object-contain relative top-0' />
+                                                <img src={check} alt="Check-Tick" className='w-7 object-contain relative top-0' />
                                                 <div class="info-wrap">
                                                     <h2
                                                         class="text-xl lg:w-full mb-3 font-bold font-plusJakartaSans capitalize text-gray-800">
